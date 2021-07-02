@@ -1,0 +1,135 @@
+*{
+    margin:0;
+     padding:0;
+   }
+   @media (min-width: 30em) and (max-width: 80em) {
+     body {
+       background-color: purple;
+     }
+   }
+   .container{ 
+     position: relative;
+   }
+   
+   #header{
+     width:100%;
+     height:100px;
+     background-color:black;
+     align-items:center;
+     position:fixed;
+   }
+   #header-img{
+     width:100px;
+     height:auto;
+     float:left; 
+   }
+   #header h3{
+     color:white;
+     float:left;
+     font-size:35px;
+     margin-top:20px;
+   }
+   #nav-bar ul{
+     float:right;
+     margin-right:40px;
+     margin-top:40px;
+   }
+   #nav-bar li{
+     display:inline-block;
+     padding: 0 20px;
+   }
+   .nav-link{
+     text-decoration:none;
+     color:rgb(253, 251, 251);
+     font-size:20px;
+   }
+   .nav-link:hover{
+     color:rgb(26, 121, 158);
+     text-decoration:underline;
+   }
+   
+   .main{
+     background-color:rgb(15, 19, 27);
+     background-size:cover;
+     text-align:center;
+   padding-top:80px;
+     
+   }
+   .main h1{
+     color:white;
+     padding-top:35px;
+     padding-bottom:15px;
+     font-size:38px;
+     margin-top:10px
+   }
+   #watchgallary{
+     display:flex;
+     justify-content:center;
+     margin-top:10px;
+   }
+   .imgdiv{
+     width:400px;
+     height:auto;
+     display:inline-block;
+   }
+   #watchgallary img{
+     max-width:100%;
+     float:left;
+     margin:18px;  
+   }
+   #videosec h3{
+     color:white;
+     margin:30px;
+     font-size:32px;
+   }
+   #aboutus{
+     color:white;
+     text-align:center;
+     width:70%;
+     height:150px;
+     background-color:rgba(1, 50, 67, 0.6);
+     margin:40px auto;
+   }
+   #aboutus h3{
+     font-size:32px;
+     padding:10px;
+   }
+   #aboutus p{
+     font-size:18px;
+     text-align:justify;
+     padding-top:10px;
+     padding-left:45px;
+     padding-right:45px;
+     padding-bottom:20px;
+   }
+   #contact{
+     width:70%;
+     height:auto;
+     background-color:rgba(1, 50, 67, 0.6);
+     margin:10px auto;
+   }
+   #contact h3{
+     color:white;
+     margin:30px;
+     padding:10px;
+     font-size:32px;
+   }
+   #contact label{
+     color:white;
+     font-size:18px;
+   }
+   #email{
+     border-radius:7px;
+     width:60%;
+     height:20px;
+     padding:10px;
+   } 
+   #submit{
+     background-color:green;
+     color:white;
+     width:20%;
+     height:40px;
+     border-radius:7px;
+     margin:20px;
+     font-size:17px;
+   }
